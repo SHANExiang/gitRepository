@@ -13,22 +13,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ArraysSortTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ConcurrentModificationExceptionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="65" column="42" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+            <state relative-caret-position="246">
+              <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1642#1643#0" expanded="true" />
-                <element signature="e#1682#1683#0" expanded="true" />
-                <element signature="e#1799#1800#0" expanded="true" />
-                <element signature="e#1843#1844#0" expanded="true" />
-                <element signature="e#2124#2125#0" expanded="true" />
-                <element signature="e#2148#2149#0" expanded="true" />
-                <element signature="e#2243#2244#0" expanded="true" />
-                <element signature="e#2269#2270#0" expanded="true" />
-                <element signature="e#2326#2327#0" expanded="true" />
-                <element signature="e#2353#2354#0" expanded="true" />
+                <element signature="e#254#262#0" expanded="true" />
+                <element signature="e#1089#1097#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,6 +87,7 @@
         <option value="$PROJECT_DIR$/src/main/java/CounterImplements.java" />
         <option value="$PROJECT_DIR$/src/main/java/HashMapTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ArraysSortTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ConcurrentModificationExceptionTest.java" />
       </list>
     </option>
   </component>
@@ -152,7 +145,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556091098837" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556094488121" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -173,9 +166,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArraysSortTest">
+  <component name="RunManager" selected="Application.ConcurrentModificationExceptionTest">
     <configuration name="ArraysSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.ArraysSortTest" />
+      <module name="demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConcurrentModificationExceptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ConcurrentModificationExceptionTest" />
       <module name="demo1" />
       <extension name="coverage">
         <pattern>
@@ -213,19 +219,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortMapByValue4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.SortMapByValue4" />
-      <module name="demo1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TreeSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.TreeSetTest" />
       <module name="demo1" />
@@ -241,11 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConcurrentModificationExceptionTest" />
         <item itemvalue="Application.ArraysSortTest" />
         <item itemvalue="Application.HashMapTest" />
         <item itemvalue="Application.CounterImplements" />
         <item itemvalue="Application.TreeSetTest" />
-        <item itemvalue="Application.SortMapByValue4" />
       </list>
     </recent_temporary>
   </component>
@@ -269,12 +262,12 @@
       <workItem from="1555809862844" duration="14253000" />
       <workItem from="1555932049771" duration="4531000" />
       <workItem from="1555993026701" duration="17171000" />
-      <workItem from="1556077642848" duration="4974000" />
+      <workItem from="1556077642848" duration="6677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77097000" />
+    <option name="totallyTimeSpent" value="78800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -551,8 +544,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ArraysSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="65" column="42" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+        <state relative-caret-position="137">
+          <caret line="98" column="5" lean-forward="true" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1642#1643#0" expanded="true" />
@@ -565,6 +558,18 @@
             <element signature="e#2269#2270#0" expanded="true" />
             <element signature="e#2326#2327#0" expanded="true" />
             <element signature="e#2353#2354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ConcurrentModificationExceptionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#254#262#0" expanded="true" />
+            <element signature="e#1089#1097#0" expanded="true" />
           </folding>
         </state>
       </provider>
