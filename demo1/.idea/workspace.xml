@@ -13,15 +13,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ConcurrentTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ProducerAndConsumerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+            <state relative-caret-position="152">
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
               <folding>
-                <element signature="e#801#802#0" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
-                <element signature="e#931#932#0" expanded="true" />
-                <element signature="e#960#961#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
+                <element signature="e#956#957#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,6 +93,7 @@
         <option value="$PROJECT_DIR$/src/main/java/GenericErasureTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/GenericSetTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ConcurrentTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ProducerAndConsumerTest.java" />
       </list>
     </option>
   </component>
@@ -152,7 +151,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556179585304" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556183318133" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -173,20 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConcurrentTest">
-    <configuration name="ArraysSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ArraysSortTest" />
-      <module name="demo1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ProducerAndConsumerTest">
     <configuration name="ConcurrentModificationExceptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.ConcurrentModificationExceptionTest" />
       <module name="demo1" />
@@ -239,13 +225,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProducerAndConsumerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ProducerAndConsumerTest" />
+      <module name="demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProducerAndConsumerTest" />
         <item itemvalue="Application.ConcurrentTest" />
         <item itemvalue="Application.GenericSetTest" />
         <item itemvalue="Application.GenericTypeMethodTest" />
         <item itemvalue="Application.ConcurrentModificationExceptionTest" />
-        <item itemvalue="Application.ArraysSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -270,12 +269,12 @@
       <workItem from="1555932049771" duration="4531000" />
       <workItem from="1555993026701" duration="17171000" />
       <workItem from="1556077642848" duration="15763000" />
-      <workItem from="1556160954431" duration="3497000" />
+      <workItem from="1556160954431" duration="6554000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91383000" />
+    <option name="totallyTimeSpent" value="94440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -613,13 +612,24 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/GenericSetTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ConcurrentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        <state relative-caret-position="152">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
           <folding>
             <element signature="e#801#802#0" expanded="true" />
             <element signature="e#832#833#0" expanded="true" />
             <element signature="e#931#932#0" expanded="true" />
             <element signature="e#960#961#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ProducerAndConsumerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
           </folding>
         </state>
       </provider>
