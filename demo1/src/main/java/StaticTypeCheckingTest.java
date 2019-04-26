@@ -18,6 +18,8 @@ public class StaticTypeCheckingTest {
 
         new BClass().me().AdoSomething();
 
+        ((BClass)(new BClass().me())).BdoSomething();//可以将对象转变成BClass类型的
+
     }
 }
 class AClass{
