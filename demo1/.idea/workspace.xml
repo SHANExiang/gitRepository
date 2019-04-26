@@ -13,10 +13,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ArrayTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="149" column="40" lean-forward="true" selection-start-line="149" selection-start-column="40" selection-end-line="149" selection-end-column="40" />
+            <state relative-caret-position="188">
+              <caret line="155" column="35" selection-start-line="155" selection-start-column="35" selection-end-line="155" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,7 +67,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Generic.java" />
         <option value="$PROJECT_DIR$/src/main/java/Generator.java" />
         <option value="$PROJECT_DIR$/src/main/java/CollectionDataTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/StringTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ComparableAndComparatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ComparableTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ComparatorTest.java" />
@@ -94,6 +93,7 @@
         <option value="$PROJECT_DIR$/src/main/java/StaticTypeCheckingTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StringTest.java" />
       </list>
     </option>
   </component>
@@ -160,7 +160,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556266393797" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556282474593" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -181,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayTest">
+  <component name="RunManager" selected="Application.StringTest">
     <configuration name="AliasingProblemTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.AliasingProblemTest" />
       <module name="demo1" />
@@ -234,8 +234,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteFileWaysTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.WriteFileWaysTest" />
+    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.StringTest" />
       <module name="demo1" />
       <extension name="coverage">
         <pattern>
@@ -249,11 +249,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringTest" />
         <item itemvalue="Application.ArrayTest" />
         <item itemvalue="Application.StaticTypeCheckingTest" />
         <item itemvalue="Application.AliasingProblemTest" />
         <item itemvalue="Application.SerializationTest" />
-        <item itemvalue="Application.WriteFileWaysTest" />
       </list>
     </recent_temporary>
   </component>
@@ -279,12 +279,12 @@
       <workItem from="1555993026701" duration="17171000" />
       <workItem from="1556077642848" duration="15763000" />
       <workItem from="1556160954431" duration="17596000" />
-      <workItem from="1556241974745" duration="8902000" />
+      <workItem from="1556241974745" duration="12791000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114384000" />
+    <option name="totallyTimeSpent" value="118273000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -381,13 +381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -689,8 +682,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="149" column="40" lean-forward="true" selection-start-line="149" selection-start-column="40" selection-end-line="149" selection-end-column="40" />
+        <state relative-caret-position="2888">
+          <caret line="152" column="33" selection-start-line="152" selection-start-column="33" selection-end-line="152" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="155" column="35" selection-start-line="155" selection-start-column="35" selection-end-line="155" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

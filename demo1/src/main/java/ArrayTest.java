@@ -150,7 +150,7 @@ public class ArrayTest {
          */
         byte[] bytes = ByteBuffer.allocate(4).putInt(8).array();
         for (byte b:bytes){
-            System.out.format("%x ",b);
+            System.out.format("0x%x ",b);
         }
 
     }

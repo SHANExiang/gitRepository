@@ -1,5 +1,13 @@
 package main.java;
 
+import org.apache.commons.lang3.StringUtils;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.Date;
+import java.util.Locale;
+
 public class StringTest {
 
     public static void main(String[] args) {
@@ -63,7 +71,7 @@ public class StringTest {
 //            if (!isSecure(s)) {
 //                throw new SecurityException();
 //            }
-            //这将导致问题，如果在之前使用其他引用改变了s。
+        //这将导致问题，如果在之前使用其他引用改变了s。
 //            causeProblem(s);
 //        }
         /*
@@ -115,8 +123,46 @@ public class StringTest {
          * 它存储着“cd”对象的引用(内存地址)。main()方法中还是之前的那个变量x.
          */
 
+
+        //Java String的几个问题。
+        /*
+        1. 将String转换成int
+         */
+        String str1 = "34";
+        int value1 = Integer.parseInt(str1);
+        System.out.println(value1);
+
+        /*
+        2. 用空白字符拆分字符串。
+         */
+        String str3 = "shane is a genius";
+        String[] strArray1 = str3.split("\\s+");
+        //String[] strArray1 = str3.split(" ");
+        System.out.println(Arrays.toString(strArray1));
+
+        /*
+        3. 重复字符串。使用Apache Commons Lang package
+         */
+        String str4 = "abc";
+        String str5 = StringUtils.repeat(str4, 2);//指的是将str4重复2次
+        System.out.println(str5);
+
+        /*
+        4. 将字符串转换成日期
+         */
+        String str6 = "Aug 16,1992";
+        try {
+            Date date = new SimpleDateFormat("MMMM d,yy", Locale.ENGLISH).parse(str6);
+            System.out.println(date);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+        /*
+        5. 数一个字符串中存在的字符的数量。使用Apache commons lang
+         */
+        String str7 = "2145454445";
+        int count = StringUtils.countMatches(str7, "4");
+        System.out.println(count);
     }
-
-
-
 }
