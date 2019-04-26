@@ -16,7 +16,10 @@ public class AliasingProblemTest {
         System.out.println("\t" + aArray.getClass().getCanonicalName());
         System.out.println("\t" + bArray.getClass().getCanonicalName());
         System.out.println("\taArray中包含元素" + aArray.getClass().getComponentType().getCanonicalName());
-        
+        /*
+        把bArray数组赋给aArray后，aArray数组中就不在包含A类的实例了，
+        在运行时，JVM就认为aArray中的元素时B类的实例。
+         */
     }
 }
 class A {
