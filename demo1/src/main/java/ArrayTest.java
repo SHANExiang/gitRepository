@@ -1,4 +1,3 @@
-package main.java;
 
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;

@@ -3,6 +3,7 @@
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/ArrayTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ArraysSortTest.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/ConcurrentModificationExceptionTest.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/StringTest.java" charset="GBK" />
   </component>

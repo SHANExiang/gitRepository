@@ -132,8 +132,12 @@ public class CollectionTest {
          */
 
         /*
-        10.Collections.copy().
-        
+        10.Collections.copy().集合的拷贝
+        第一种方法使用ArrayList的构造方法。
+        ArrayList desList = new ArrayList(srcList);
+        另一种方法就是Collections.copy()。
+        ArrayList desList = new ArrayList(srcList.size());
+        Collections.copy(desList,srcArray);
          */
 
     }
