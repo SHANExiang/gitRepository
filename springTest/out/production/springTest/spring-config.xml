@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="helloWorld1" class="com.dongxiang.beans.HelloWorld">
+        <property name="name" value="dong">
+        </property>
+    </bean>
+
+    <!--  使用bean的scope来配置bean的作用域
+        singleton:默认值，容器初始化时创建bean实例，在整个容器的声明周期内只创建一个bean实例，单例的；
+        prototype:原型的，容器初始化时不创建bean实例，而在每次请求时创建一个新的bean实例，并返回。
+    -->
+
+    <bean id="helloWorld2" parent="helloWorld1" scope="prototype">
+        <property name="name" value="xiang"/>
+    </bean>
+
+    <!--用来导入属性文件-->
+    <context:property-placeholder location=""/>
+
+    <bean id="car1" class="com.dongxiang.beans.Car" init-method="init" destroy-method="destroy" >
+        <property name="brand" value="audi"/>
+    </bean>
+
+    <!--配置bean的后置处理器-->
+    <bean class="com.dongxiang.beans.MyBeanPostProcessor"/>
+</beans>
